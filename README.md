@@ -1,2 +1,2 @@
-# SearchApp
+# Project App
 SearchApp, Todolist
