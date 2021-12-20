@@ -1,0 +1,45 @@
+
+.flex{
+    display: flex;
+}
+.j-between{
+    justify-content: space-between;
+}
+
+.items{
+    padding:10px;
+    width: 300px;
+    img{
+        
+        width: auto;
+        padding:0;
+    }
+    &.first{
+        -webkit-box-shadow: 3px 5px 5px 1px rgba(0,0,0,0.38); 
+        box-shadow: 3px 5px 5px 1px rgba(0,0,0,0.38);  
+      }
+
+    .name{
+        margin:10px 0 0 10px;
+    }
+    .price{
+        color:#ee4d2d;
+        font-size: 25px;
+    }
+    .pricedc{
+        .line-through{
+            text-decoration: line-through;
+        }
+    }
+    .end{
+        ul{
+            li{
+                color: #FFFF00;
+            }
+        }
+    }
+
+}
+.grey{
+    color: grey;
+}

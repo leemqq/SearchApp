@@ -1,0 +1,229 @@
+.flex {
+	display: flex;
+}
+
+.a-center {
+	align-items: center;
+}
+
+.a-start {
+	align-items: flex-start;
+}
+
+.a-end {
+	align-items: flex-end;
+}
+
+.j-center {
+	justify-content: center;
+}
+
+.j-between {
+	justify-content: space-between;
+}
+
+.j-start {
+	justify-content: flex-start;
+}
+
+.j-end {
+	justify-content: flex-end;
+}
+
+body,
+html {
+	font-family: 'Rubik', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	max-width: 1300px;
+	margin: auto;
+}
+
+.notice {
+	display: flex;
+	height: 70px;
+	background: url(https://gostore-be87.kxcdn.com/gostore/wp-content/uploads/2021/04/store-noted.jpg);
+	align-items: center;
+	justify-content: center;
+}
+
+.notice__content {
+	padding: 10px;
+}
+
+.notice__content img {
+	max-width: 100%;
+}
+
+.notice__content h5 {
+	font-size: 1.2rem;
+	font-weight: normal;
+}
+
+.notice__content h5 span {
+	font-weight: bold;
+	margin: 5px;
+	color: red;
+}
+
+header {
+	position: relative;
+	z-index: 10;
+	border-bottom: 1px solid rgba(51, 51, 51, .3);
+}
+
+header .header {
+	position: relative;
+	z-index: 100;
+	padding: 20px 0;
+}
+
+header .header__logo {
+	cursor: pointer;
+}
+
+header .header__logo img {
+	width: 160px;
+	max-width: 100%;
+}
+
+header .header__search {
+	width: 700px;
+}
+
+header .header__search .select-category {
+	font-size: 1rem;
+	width: 180px;
+	padding: 8px;
+	cursor: pointer;
+	color: rgba(51, 51, 51, .5);
+	border: 1px solid rgba(51, 51, 51, .3);
+}
+
+header .header__search .select-category:focus {
+	outline: rgba(51, 51, 51, .5);
+}
+
+header .header__search input {
+	display: block;
+	width: 520px;
+	margin-left: 0;
+	padding: 10px;
+	border: 1px solid rgba(51, 51, 51, .2);
+}
+
+header .header__search input::-moz-placeholder {
+	font-size: 1rem;
+	font-style: italic;
+	color: rgba(51, 51, 51, .5);
+}
+
+header .header__search input:-ms-input-placeholder {
+	font-size: 1rem;
+	font-style: italic;
+	color: rgba(51, 51, 51, .5);
+}
+
+header .header__search input::placeholder {
+	font-size: 1rem;
+	font-style: italic;
+	color: rgba(51, 51, 51, .5);
+}
+
+header .header__search i {
+	cursor: pointer;
+	transform: translateX(-200%);
+}
+
+header .header__right .language {
+	position: relative;
+	z-index: 1000;
+	display: flex;
+	padding: 10px;
+	cursor: pointer;
+}
+
+header .header__right .language i {
+	margin-left: 5px;
+}
+
+header .header__right .language__drop-down {
+	position: absolute;
+	left: -30%;
+	display: none;
+	width: 150px;
+	padding: 30px;
+	transform: translateY(30px);
+	background: white;
+	box-shadow: rgba(0, 0, 0, .24) 0 3px 8px;
+}
+
+header .header__right .language__drop-down p:hover {
+	color: red;
+}
+
+header .header__right .language__drop-down p.mg-top15 {
+	margin-top: 15px;
+}
+
+header .header__right .currency {
+	position: relative;
+	z-index: 100;
+	display: flex;
+	margin-left: 20px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+header .header__right .currency i {
+	margin-left: 5px;
+}
+
+header .header__right .currency__drop-down {
+	position: absolute;
+	left: -30%;
+	display: none;
+	width: 150px;
+	padding: 20px;
+	transform: translateY(30px);
+	background: white;
+	box-shadow: rgba(0, 0, 0, .24) 0 3px 8px;
+}
+
+header .header__right .currency__drop-down p {
+	margin-top: 10px;
+}
+
+header .header__right .currency__drop-down p:hover {
+	color: red;
+}
+
+header .header__right .last li {
+	position: relative;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+header .header__right .last li:hover {
+	color: red;
+}
+
+header .header__right .last li .circle {
+	position: absolute;
+	bottom: 60%;
+	left: 60%;
+	display: flex;
+	width: 18px;
+	height: 18px;
+	color: white;
+	border-radius: 50%;
+	background-color: black;
+	align-items: center;
+	justify-content: center;
+}
+

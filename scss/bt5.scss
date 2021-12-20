@@ -1,0 +1,33 @@
+.square300px{
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: relative;
+    .square100px{
+        width: 100px;
+        height: 100px;
+        background: green;
+        position: absolute;
+        .square1{
+            width: 10px;
+            height: 10px;
+            background-color: yellow;
+        }
+        .square2{
+            width: 20px;
+            height: 20px;
+            background-color: black;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+    .square2{
+        width: 20px;
+        height: 20px;
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}

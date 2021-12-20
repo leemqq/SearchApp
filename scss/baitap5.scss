@@ -1,0 +1,101 @@
+
+.list{
+    width: 1000px;
+    height: 850px;
+    background-color:#565559;
+    padding: 15px;
+   
+    p{
+        color:white;
+        &.time{
+            color:#777768;
+        }
+    }
+    .title{
+        border-bottom: 0.5px solid grey;
+        margin-bottom: 5px;
+        h2{
+            color:#dacb46;
+            text-transform: uppercase;
+        }
+        .viewall{
+            p{
+                padding-right: 9px;
+            }
+            .arrow-right {
+                width: 0;
+                height: 0;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-left: 10px solid white;
+              }
+
+        }
+        
+    }
+    .album{
+        margin-bottom: 20px;
+    }
+    .content{
+        background-color: #1c1c1c;
+        border:2px solid red;
+        width: 220px;
+        height: 380px;
+        .card{
+            height: 300px;
+            padding-top: 10px; 
+            background-image: url(https://afamilycdn.com/150157425591193600/2021/2/12/bogiateaser1-16131133151931345620003.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            .label{
+                background-color: #c03636;
+                width: 150px;
+                height: 25px;
+                position: relative;  
+                margin-left: -1px;         
+                span{
+                    font-weight: bold;
+                    color:white;
+                }
+                &:before{
+                    content: '  ';
+                    position: absolute;
+                    width: 17px;
+                    height: 17px;
+                    background-color: #c03636;
+                    right: -9px;
+                    transform: rotate(45deg);
+                }
+            }
+        }
+        .info{
+            padding: 5px;
+            padding-left: 33px;
+            h3{
+                color:#2cd6ff;
+            } 
+            p{
+                color:whitesmoke;
+            }
+            span{
+                color:#777772;
+            }
+        }
+
+    }
+    
+    
+}
+.flex{
+    display: flex;
+}
+.j-betwwen{
+    justify-content: space-between;
+}
+.j-center{
+    justify-content: center;
+}
+.a-center{
+    align-items: center;
+}

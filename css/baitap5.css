@@ -1,0 +1,113 @@
+.list {
+	width: 1000px;
+	height: 850px;
+	padding: 15px;
+	background-color: #565559;
+}
+
+.list p {
+	color: white;
+}
+
+.list p.time {
+	color: #777768;
+}
+
+.list .title {
+	margin-bottom: 5px;
+	border-bottom: .5px solid grey;
+}
+
+.list .title h2 {
+	text-transform: uppercase;
+	color: #dacb46;
+}
+
+.list .title .viewall p {
+	padding-right: 9px;
+}
+
+.list .title .viewall .arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid white;
+}
+
+.list .album {
+	margin-bottom: 20px;
+}
+
+.list .content {
+	width: 220px;
+	height: 380px;
+	border: 2px solid red;
+	background-color: #1c1c1c;
+}
+
+.list .content .card {
+	height: 300px;
+	padding-top: 10px;
+	background-image: url(https://afamilycdn.com/150157425591193600/2021/2/12/bogiateaser1-16131133151931345620003.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.list .content .card .label {
+	position: relative;
+	width: 150px;
+	height: 25px;
+	margin-left: -1px;
+	background-color: #c03636;
+}
+
+.list .content .card .label span {
+	font-weight: bold;
+	color: white;
+}
+
+.list .content .card .label:before {
+	position: absolute;
+	right: -9px;
+	width: 17px;
+	height: 17px;
+	content: '  ';
+	transform: rotate(45deg);
+	background-color: #c03636;
+}
+
+.list .content .info {
+	padding: 5px;
+	padding-left: 33px;
+}
+
+.list .content .info h3 {
+	color: #2cd6ff;
+}
+
+.list .content .info p {
+	color: whitesmoke;
+}
+
+.list .content .info span {
+	color: #777772;
+}
+
+.flex {
+	display: flex;
+}
+
+.j-betwwen {
+	justify-content: space-between;
+}
+
+.j-center {
+	justify-content: center;
+}
+
+.a-center {
+	align-items: center;
+}
+

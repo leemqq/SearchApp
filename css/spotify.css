@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+	font-family: 'Roboto',sans-serif;
+}
+
+.container {
+	width: 1100px;
+	margin: auto;
+}
+
+.flex {
+	display: flex;
+}
+
+.j-between {
+	justify-content: space-between;
+}
+
+.j-center {
+	justify-content: center;
+}
+
+.a-center {
+	align-items: center;
+}
+
+.a-flexstart {
+	align-items: flex-start;
+}
+
+header {
+	padding: 15px;
+	background-color: black;
+}
+
+header a {
+	font-weight: bold;
+	color: white;
+}
+
+header a:hover {
+	color: #1ed760;
+}
+
+header .container .logo {
+	width: 150px;
+}
+
+header .container .logo img {
+	width: 100%;
+	background-color: black;
+}
+
+header nav ul li {
+	margin-left: 20px;
+}
+
+header nav ul li.line {
+	width: 1px;
+	background-color: white;
+}
+
+.content {
+	position: relative;
+	min-height: 846px;
+	background-color: #2941a9;
+	background-image: url(https://www-growth.scdn.co/static/home/bursts.svg?fbclid=IwAR33Es26yom4w_P9CmAzu-vUAchyf2Djl8HHFW2uLu5M6gAdFNHyK36Ap90);
+	background-position: 46% 4%;
+	background-size: 175%;
+}
+
+.content .container {
+	padding: 220px 0;
+	color: #1ed760;
+}
+
+.content .container h1 {
+	font-size: 156px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.content .container p {
+	text-align: center;
+}
+
+.content .dowload {
+	display: flex;
+	justify-content: center;
+}
+
+.content .dowload a {
+	margin: 20px 0;
+	padding: 20px 35px;
+	color: #2941a9;
+	border-radius: 25px;
+	background-color: #1ed760;
+}
+
+footer {
+	background: black;
+}
+
+footer a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+footer a:hover {
+	color: #1ed760;
+}
+
+footer p {
+	color: grey;
+}
+
+footer .container {
+	padding: 50px 0;
+}
+
+footer .container .logo {
+	width: 150px;
+}
+
+footer .container .logo img {
+	width: 100%;
+	background-color: black;
+}
+
+footer .container .social li {
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+.mg-top10 {
+	margin-top: 30px;
+}
+

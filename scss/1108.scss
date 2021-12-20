@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todoList{
+    border: 1px solid rgba(#333, 0.3);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 2px 2px 6px -2px;
+    width: 300px;
+    .input-group{
+        display: flex;
+        input{
+            padding: 5px;
+            border: 1px solid #333;
+            flex-grow: 1;
+        }
+        button{
+            padding: 5px 20px;
+            background-color: #333;
+            color: white;
+        }
+    }
+    ul{
+        margin-top: 13px;
+    }
+    
+}

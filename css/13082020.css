@@ -1,0 +1,29 @@
+.container {
+	max-width: 1100px;
+	margin: auto;
+}
+
+header {
+	padding: 20px 0;
+	background: #333;
+}
+
+header .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+header .container .logo a {
+	font-size: 40px;
+	color: white;
+}
+
+header .container ul {
+	display: flex;
+}
+
+header .container ul li {
+	margin-left: 20px;
+	color: white;
+}
+

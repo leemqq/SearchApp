@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+*{
+    font-family: 'Roboto',sans-serif;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.j-between{
+    justify-content: space-between;
+}
+.j-center{
+    justify-content: center;
+}
+.a-center{
+    align-items: center;
+}
+.a-flexstart{
+    align-items: flex-start;
+
+}
+header{
+    background-color: black;
+    padding: 15px;
+    a{
+        color:white;
+        font-weight: bold;
+        &:hover{
+            color:#1ed760;
+        }
+        
+    }
+    .container{
+        .logo{
+            width: 150px;
+           img{
+               width: 100%;
+               background-color: black;
+           }
+        }
+    }
+    nav{
+        ul{
+            li{
+                margin-left: 20px;
+                &.line{
+                    background-color: white;
+                    width: 1px;
+                }
+                
+            }
+        }
+    }
+}
+.content{
+    background-color: rgb(41,65,169);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg?fbclid=IwAR33Es26yom4w_P9CmAzu-vUAchyf2Djl8HHFW2uLu5M6gAdFNHyK36Ap90);
+    background-size: 175%;
+    background-position: 46% 4%;
+    min-height: 846px;
+    position: relative;
+    .container{
+        color:#1ed760;
+        padding: 220px 0;
+        h1{
+            font-size: 156px;
+            font-weight: bolder;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        
+    }
+    .dowload{
+        display: flex;
+        justify-content: center;
+        a{
+            margin: 20px 0;
+            color: rgb(41,65,169);
+            padding: 20px 35px;
+            background-color: #1ed760;
+            border-radius: 25px;
+            
+        }
+    }
+}
+footer{
+    background: black;
+    a{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        &:hover{
+            color:#1ed760;
+        }
+    }
+    p{
+        color: grey;
+    }
+    .container{
+        padding: 50px 0;
+    
+    
+        .logo{
+            width: 150px;
+           img{
+               width: 100%;
+               background-color: black;
+           }
+        }
+        
+        .social{
+            li{
+                margin-left: 20px;
+                font-size: 30px;
+            }
+    }
+}
+}
+.mg-top10{
+    margin-top: 30px;
+}
+
+

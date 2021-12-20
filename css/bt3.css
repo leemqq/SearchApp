@@ -1,0 +1,42 @@
+.flex {
+	display: flex;
+}
+
+.parents {
+	width: 700px;
+	padding: 20px;
+	background: black;
+}
+
+.parents h2 {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	color: white;
+	border-bottom: .5px solid grey;
+}
+
+.parents p {
+	color: grey;
+}
+
+.parents .about {
+	width: 60%;
+}
+
+.parents .quicklinks {
+	width: 40%;
+	margin-left: 20px;
+}
+
+.parents .quicklinks ul li {
+	margin-bottom: 10px;
+}
+
+.parents .quicklinks ul li a {
+	color: grey;
+}
+
+.jc-spacebt {
+	justify-content: space-between;
+}
+

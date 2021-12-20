@@ -1,0 +1,27 @@
+.container{
+    max-width: 1100px;
+    margin: auto; 
+}
+header{
+    padding: 20px 0;
+    background:#333;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        .logo{
+            a{
+                font-size: 40px;
+                color: white;
+            }
+        }
+        ul{
+            display: flex;
+            li{
+                margin-left:20px ;
+                color: white;
+            }
+        }
+    }
+}
+
+

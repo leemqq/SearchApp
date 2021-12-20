@@ -1,0 +1,43 @@
+.flex {
+	display: flex;
+}
+
+.j-between {
+	justify-content: space-between;
+}
+
+.items {
+	width: 300px;
+	padding: 10px;
+}
+
+.items img {
+	width: auto;
+	padding: 0;
+}
+
+.items.first {
+	box-shadow: 3px 5px 5px 1px rgba(0, 0, 0, .38);
+}
+
+.items .name {
+	margin: 10px 0 0 10px;
+}
+
+.items .price {
+	font-size: 25px;
+	color: #ee4d2d;
+}
+
+.items .pricedc .line-through {
+	text-decoration: line-through;
+}
+
+.items .end ul li {
+	color: #ff0;
+}
+
+.grey {
+	color: grey;
+}
+

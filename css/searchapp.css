@@ -1,0 +1,158 @@
+* {
+	font-family: 'Gemunu Libre', sans-serif;
+	color: #333;
+}
+
+.yellow {
+	color: #f1c40f;
+}
+
+.container {
+	width: 1100px;
+	margin: auto;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.no-wrap {
+	flex-wrap: nowrap;
+}
+
+.a-center {
+	align-items: center;
+}
+
+.a-start {
+	align-items: flex-start;
+}
+
+.a-end {
+	align-items: flex-end;
+}
+
+.j-between {
+	justify-content: space-between;
+}
+
+header {
+	padding: 30px 0;
+}
+
+header .container .logo a {
+	font-size: 48px;
+	color: #333;
+}
+
+header .container .input-search {
+	position: relative;
+	box-shadow: rgba(0, 0, 0, .24) 0 3px 8px;
+}
+
+header .container .input-search input {
+	font-size: 18px;
+	width: 420px;
+	padding: 20px;
+	padding-left: 40px;
+	border: 1px solid none;
+	border-radius: 10px;
+}
+
+header .container .input-search div.search-icon {
+	font-size: 18px;
+	position: absolute;
+	top: 20px;
+	left: 15px;
+	cursor: pointer;
+}
+
+header .container .cart {
+	position: relative;
+}
+
+header .container .cart .left-cart span {
+	font-weight: bold;
+}
+
+header .container .cart .right-cart .cart-icon {
+	padding: 20px;
+	cursor: pointer;
+}
+
+header .container .cart .right-cart i {
+	margin-left: 10px;
+}
+
+header .container .cart .right-cart .cart-dropdown {
+	top: 100%;
+	left: 0;
+	padding: 10px 25px;
+	background-color: white;
+	box-shadow: rgba(14, 30, 37, .12) 0 2px 4px 0, rgba(14, 30, 37, .32) 0 2px 16px 0;
+}
+
+header .container .cart .right-cart .cart-dropdown img {
+	width: 50px;
+}
+
+header .container .cart .right-cart .cart-dropdown .quantity {
+	margin-left: 15px;
+	padding-top: 35px;
+}
+
+header .container .cart .right-cart .cart-dropdown .remove {
+	font-size: 24px;
+	cursor: pointer;
+}
+
+header .container .cart .right-cart .cart-dropdown .remove i {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+header .container .cart button {
+	font-size: 15px;
+	font-weight: bold;
+	width: 100%;
+	padding: 10px;
+	cursor: pointer;
+	color: white;
+	background: #27ae60;
+}
+
+.products .container .list .col {
+	width: 25%;
+	padding: 15px;
+}
+
+.products .container .list .col .item {
+	padding: 15px;
+	box-shadow: rgba(60, 64, 67, .3) 0 1px 2px 0, rgba(60, 64, 67, .15) 0 2px 6px 2px;
+}
+
+.products .container .list .col .item img {
+	max-width: 100%;
+}
+
+.products .container .list .col .item .product-name {
+	font-size: 21px;
+}
+
+.products .container .list .col .item .product-price {
+	font-size: 20px;
+}
+
+.products .container .list .col .item .rating {
+	font-size: 20px;
+}
+
+.products .container .list .col .item .add {
+	width: 100%;
+	padding: 10px;
+	cursor: pointer;
+	color: white;
+	background-color: #27ae60;
+}
+
